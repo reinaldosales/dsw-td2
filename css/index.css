@@ -1,0 +1,81 @@
+header>p {
+    color: white;
+    font-size: 4.2rem;
+    margin: 3rem 0;
+}
+
+header>p>span {
+    font-weight: 800;
+}
+
+/* Inputs */
+
+.input {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.input>input {
+    padding: 1rem;
+    color: var(--background);
+    border-radius: 8px;
+}
+
+/* Button adcionar and editar */
+
+button {
+    width: 100%;
+    background-color: #3DFF50;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Create and Edit */
+
+.Create-Edit {
+    display: flex;
+    flex-direction: column;
+}
+
+.Create-Edit>p {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+hr {
+    width: 50%;
+    margin: 3rem 0;
+    border: solid 1px white;
+}
+
+
+/* Read */
+
+table {
+    color: white;
+    width: 100vh;
+}
+
+th {
+    text-align: start;
+    padding: 1rem 0
+}
+
+td {
+    text-align: start;
+}
+
+tr{
+    border-bottom: solid 1px white;
+}
+
+td>a>img {
+    width: 24px;
+}

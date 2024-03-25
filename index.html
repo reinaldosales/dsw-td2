@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <a
-        href="https://www.figma.com/file/jYDfgKSG9qXKRQOpBVYlTZ/Trabalho-dirigido-02?type=design&node-id=0-1&mode=design&t=uOImDS3mYLoSazex-0">Figma</a>
-
+    
     <header>
+        <a
+            href="https://www.figma.com/file/jYDfgKSG9qXKRQOpBVYlTZ/Trabalho-dirigido-02?type=design&node-id=0-1&mode=design&t=uOImDS3mYLoSazex-0">Figma</a>
         <p>
             <span>LISTA</span>Telefonica
         </p>
@@ -26,12 +26,15 @@
             <div class="input">
                 <label for="Name">Nome</label>
                 <input required type="text" name="Name" id="Name" placeholder="Digite um nome...">
+                <span id="ErrorForName" class="ErrorMessage"></span>
             </div>
 
             <div class="input">
                 <label for="Phone">Telefone</label>
                 <input required type="number" name="Phone" id="Phone" placeholder="Digite um telefone...">
+                <span id="ErrorForPhone" class="ErrorMessage"></span>
             </div>
+
 
             <button type="submit" id="Btn-Add">Adicionar</button>
         </form>
@@ -45,18 +48,6 @@
                 <th>Nome</th>
                 <th>Telefone</th>
                 <th>Ações</th>
-            </tr>
-            <tr>
-                <td> Jose Reinaldo </td>
-                <td>88996546797</td>
-                <td>
-                    <a href="#">
-                        <img src="assets/tabler_edit.png" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="assets/clarity_remove-line.png" alt="">
-                    </a>
-                </td>
             </tr>
         </table>
     </section>

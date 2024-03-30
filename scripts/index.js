@@ -99,6 +99,18 @@ function updateTable() {
 
 function deleteContact(index) {
     contacts.splice(index, 1);
+
+    const nameElement = document.getElementById('Name');
+    const phoneElement = document.getElementById('Phone');
+
+    btnAdd.innerHTML = 'Adicionar';
+    btnAdd.style.backgroundColor = '#3DFF50';
+    btnAdd.removeAttribute("IsEdit");
+    btnAdd.removeAttribute("ContactEditIndex");
+
+    nameElement.value = '';
+    phoneElement.value = '';
+
     updateTable();
 }
 
